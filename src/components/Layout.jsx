@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 
 // Reference - https://react.dev/reference/react/useEffect 
 // Why fetch is called twice - https://www.reddit.com/r/reactjs/comments/ugzopd/why_is_my_fetch_getting_called_twice/?rdt=56825
-
+// What is dependency array - https://in.search.yahoo.com/search?fr=mcafee&type=E210IN826G0&p=what+is+dependecy+array+in+react
 
 export const Layout = () => {
   const [list, setList] = useState([]);
